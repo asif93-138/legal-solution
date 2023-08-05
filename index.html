@@ -28,6 +28,20 @@
     .card-title-font {
        font-size: 65px;
     }
+ 
+ 
+
+     @media screen and (max-width: 576px) {
+    
+     .gc {position: static;}
+     .tf { font-size: revert;}
+     .new {width:auto !important;}
+    
+    
+    
+    
+    }
+  
 
     </style>
 
@@ -35,7 +49,7 @@
 
   <body>
 
-    <header class="container-lg mb-5">
+    <header class="container-lg mb-lg-5">
 
       <nav class="navbar navbar-expand-lg mx-auto my-5">
         <div class="container-lg">
@@ -93,19 +107,19 @@
 
        <div class="container-lg card mx-auto text-bg-dark">
           <img src="images/banner.png" class="card-img img-fluid" alt="...">
-          <div class="card-img-overlay mt-5 pt-5 text-center container-lg">
-            <h1 class="card-title mb-4 card-title-font">We Provide Effective <br>Legal Solutions</h1>
+          <div class="card-img-overlay gc mt-0 mt-lg-5 pt-0 pt-lg-5 text-center container-lg">
+            <h1 class="card-title tf mb-0 mb-lg-4 card-title-font">We Provide Effective <br>Legal Solutions</h1>
             <p class="card-text">There are many variations of passages of Lorem Ipsum available, but the majority <br>have suffered alteration in some form, by injected humour.</p>
-            <form class="d-flex w-50 mx-auto" role="search">
-            <input class="form-control px-4 p-2 me-2" type="search" placeholder="Search your services" aria-label="Search">
-            <button class="btn btn-custom px-4 p-2" type="submit">Search</button>
+            <form class="d-md-flex d-block w-50 mx-auto" role="search">
+            <input class="form-control px-0 px-lg-4 p-0 p-lg-2 me-0 me-lg-2" type="search" placeholder="Search your services" aria-label="Search">
+            <button class="btn btn-custom px-0 px-lg-4 p-lg-2 p-0" type="submit">Search</button>
             </form>  
            </div>
         </div>
 
     </header>
 
-    <main>
+    <main class="pt-lg-5">
 
       <section class="container-lg text-center my-5">
         <h2 class="m-4">The Legal Practice Area</h2>
@@ -150,10 +164,10 @@
         </div>
       </section>
 
-      <section class="container-lg text-center p-5 mx-auto">
-        <h2>What Our Client Say</h2>
-        <p>There are many variations of passages of Lorem Ipsum available, but the majority have <br>suffered alteration in some form, by injected humour</p>
-        <div id="carouselExampleCaptions" class="carousel slide p-5">
+      <section class="container-lg text-center my-lg-5 p-lg-5 mx-auto">
+        <h2 class="mb-4">What Our Client Say</h2>
+        <p class="mb-5">There are many variations of passages of Lorem Ipsum available, but the majority have <br>suffered alteration in some form, by injected humour</p>
+        <div id="carouselExampleCaptions" class="carousel slide">
         <div class="carousel-indicators">
         <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
         <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -162,25 +176,31 @@
         <div class="carousel-inner">
         <div class="carousel-item active">
         <img height="500px" src="images/slider-1.jpg" class="d-block w-100" alt="...">
-        <div class="carousel-caption d-none d-md-block">
+        <div class="carousel-caption d-md-block mb-lg-5">
+        <img width="60" height="60" src="https://www.shutterstock.com/image-vector/app-profile-icon-male-online-600w-2224391139.jpg" class="rounded-circle mb-4">
         <h5>Awlad Hossain</h5>
-        <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur</p>
+        <p><strong>Designer</strong></p>
+        <p><small>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur</small></p>
        </div>
        </div>
-       <div class="carousel-item">
-       <img height="500px" src="images/slider-2.jpg" class="d-block w-100" alt="...">
-       <div class="carousel-caption d-none d-md-block">
+        <div class="carousel-item">
+        <img height="500px" src="images/slider-2.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-md-block mb-lg-5">
+        <img width="60" height="60" src="https://www.shutterstock.com/image-vector/app-profile-icon-male-online-600w-2224391139.jpg" class="rounded-circle mb-4">
         <h5>Awlad Hossain</h5>
-        <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur</p>
-      </div>
-      </div>
-      <div class="carousel-item">
-      <img height="500px" src="images/slider-3.jpg" class="d-block w-100" alt="...">
-      <div class="carousel-caption d-none d-md-block">
+        <p><strong>Designer</strong></p>
+        <p><small>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur</small></p>
+       </div>
+       </div>
+        <div class="carousel-item">
+        <img height="500px" src="images/slider-3.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-md-block mb-lg-5">
+        <img width="60" height="60" src="https://www.shutterstock.com/image-vector/app-profile-icon-male-online-600w-2224391139.jpg" class="rounded-circle mb-4">
         <h5>Awlad Hossain</h5>
-        <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur</p>
-      </div>
-      </div>
+        <p><strong>Designer</strong></p>
+        <p><small>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur</small></p>
+       </div>
+       </div>
       </div>
       <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -193,7 +213,8 @@
       </div>
       </section>
 
-      <section class="container-lg text-center mx-auto">
+
+      <section class="container-lg text-center my-5 mx-auto">
         <h2>Frequently Asked Any Questions</h2>
         <p>There are many variations of passages of Lorem Ipsum available, but the majority have <br>suffered alteration in some form, by injected humour.</p>
         <div class="d-lg-flex d-block justify-content-between mx-auto mt-5">
@@ -259,41 +280,98 @@
       </section>
 
 
+      <section class="container-lg text-center my-5 mx-auto">
+        <h2>Contact With Us</h2>
+        <p>There are many variations of passages of Lorem Ipsum available, but the majority have <br>suffered alteration in some form, by injected humour.</p>
+        <article class="d-lg-flex d-block">
+        <div class="bg-body-secondary w-50 new m-lg-5">
+          <div class="row row-cols-1 row-cols-lg-2 mx-0">
+            <div class="col p-5 border-end border-bottom border-dark">
+              <img src="images/location.png">
+              <h6 class="">Address</h6>
+              <p><small>A108 Adam Street, <br>New York, NY 535022</small></p>
+              
+            </div>
+            <div class="col p-5 border-bottom border-dark">
+              <img src="images/call.png">
+              <h6 class="">Call Us</h6>
+              <p><small>+88 01750 00 00 00 <br>+88 01750 00 00 00</small></p>
+              
+            </div>
+            <div class="col p-5 border-end border-dark">
+              <img src="images/email.png">
+              <h6 class="">Email Us</h6>
+              <p><small>info@gmail.com <br>info@gmail.com</small></p>
+              
+            </div>
+            <div class="col p-5">
+              <img src="images/time.png">
+              <h6 class="">Working Hours</h6>
+              <p><small>Mon-Fri: 9AM to 5PM <br>Sunday: 9AM to 1 PM</small></p>
+              
+            </div>
+
+        </div>
+        </div>
+        <div class="w-50 new m-lg-5">
+        <form action="/action_page.php">
+    <div class="mb-4 mt-3">
+      
+      <input type="text" class="form-control py-2" id="name" placeholder="Your Name" name="name">
+    </div>
+    <div class="mb-4">
+      
+      <input type="email" class="form-control py-2" id="email" placeholder="Email Address" name="email">
+    </div>
+    <div class="mb-4">
+      
+      <input type="text" class="form-control py-2" id="subject" placeholder="Subject" name="subject">
+    </div>
+    <div class="mb-4">
+      
+      <textarea class="form-control py-2" rows="5" id="message" placeholder="Your Message" name="message"></textarea>
+    </div>
+    <button type="submit" class="btn btn-custom w-100">Submit</button>
+        </div>
+        </article>
+      </section>
+
+
     </main>
 
-    <footer class="container-fluid d-lg-flex d-block justify-content-evenly bg-dark text-white mt-5">
-
-     <section class="container-lg m-5 p-5">
+    <footer class="container-fluid bg-dark text-white mt-5 py-5 text-center text-lg-start">
+     <div class=" container d-lg-flex d-block justify-content-between pt-lg-5">
+     <section class="w-25 new">
        <img src="images/logo.png">
-       <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+       <small><p>There are many variations of <br>passages of Lorem Ipsum available, <br>but the majority have suffered <br>alteration in some form, by <br>injected humour.</p></small>
      </section>
 
-     <section class="container-lg m-5 p-5">
+     <section class="w-25 new">
        <h5>Useful Link</h5>
-       <p>Homes</p>
+       <small><p>Homes</p>
        <p>About Us</p>
        <p>Cases</p>
        <p>Blog</p>
-       <p>Contact Us</p>
+       <p>Contact Us</p></small>
      </section>
 
-     <section class="container-lg m-5 p-5">
+     <section class="w-25 new">
        <h5>Contact Now</h5>
-       <p>555 4th 5t NW, WashingtonDC 20530, United States</p>
+       <small><p>555 4th 5t NW, <br>WashingtonDC 20530, <br>United States</p>
        <p>+88 01750 000 000 <br>+88 01750 000 000</p>
        <p>info@gmail.com</p>
-       <p>info@gmail.com</p>
+       <p>info@gmail.com</p></small>
      </section>
 
-     <section class="container-lg m-5 p-5">
+     <section class="w-25 new">
        <h5>Subscribe</h5>
-       <p>Subscribe for our latest & Articles. We Won t Give You Spam Mails</p>
-            <form class="d-flex" role="search">
-            <input class="form-control" type="email" placeholder="Email" aria-label="Email">
-            <button class="btn btn-custom" type="submit">S</button>
-            </form>
+       <small><p>Subscribe for our <br>latest & Articles. We Wont <br>Give You Spam Mails</p>
+            
+            <input class="p-1 rounded" type="email" placeholder="Email">
+            <button class="btn btn-custom mb-1" type="submit">S</button></small>
+            
      </section>
-
+     </div>
 
     </footer>
 
